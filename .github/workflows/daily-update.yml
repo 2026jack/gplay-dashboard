@@ -1,0 +1,40 @@
+name: daily-update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # UTC 01:00 = 北京时间 09:00 (GitHub 定时可能有 0~30 分钟延迟)
+  workflow_dispatch: {}    # 支持在 Actions 页面手动触发测试
+
+permissions:
+  contents: write          # 允许把更新后的数据库提交回仓库
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily pipeline (fetch -> build -> publish)
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          MCP_TOKEN: ${{ secrets.MCP_TOKEN }}
+        run: python update_all.py
+
+      - name: Commit data back to repo (SQLite + snapshots)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add db.sqlite3 data.json state.json preview_result.json reports/ || true
+          git diff --cached --quiet || (git commit -m "daily update $(date -u +%F)" && git push)
