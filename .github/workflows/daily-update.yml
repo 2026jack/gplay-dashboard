@@ -3,7 +3,7 @@ name: daily-update
 on:
   schedule:
     - cron: "0 1 * * *"   # UTC 01:00 = 北京时间 09:00 (GitHub 定时可能有 0~30 分钟延迟)
-  workflow_dispatch: {}    # 支持在 Actions 页面手动触发测试
+  workflow_dispatch: {}    # 支持手动触发测试
 
 permissions:
   contents: write          # 允许把更新后的数据库提交回仓库
@@ -31,10 +31,14 @@ jobs:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           MCP_TOKEN: ${{ secrets.MCP_TOKEN }}
         run: python update_all.py
+        # 说明: 当前 app-data-mcp.luteos.site 的防火墙拦截 GitHub 数据中心 IP,
+        # 最后"更新平台看板"一步可能连接超时, 抓取与建库不受影响; 平台放行后此步自动恢复
+        continue-on-error: true
 
-      - name: Commit data back to repo (SQLite + snapshots)
+      - name: Commit data back to repo (SQLite + snapshots + dashboard)
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add db.sqlite3 data.json state.json preview_result.json reports/ || true
+          git add db.sqlite3 data.json state.json preview_result.json dashboard_platform.html reports/ || true
           git diff --cached --quiet || (git commit -m "daily update $(date -u +%F)" && git push)
