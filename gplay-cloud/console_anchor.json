@@ -1,0 +1,9 @@
+{
+  "global_default_rating": 3.441,
+  "avg_rating_28d": 3.962,
+  "users_28d": 376,
+  "us_default_rating": 3.260,
+  "anchored_at": "2026-09-22 18:00",
+  "source": "Play Console 评分页概览（用户截图）",
+  "note": "global_default_rating 为后台『默认 Google Play 评分』= 全量(含纯打星)累计，仅后台可见，公开渠道无精确源；美国值已由美国区星级分布直方图每日自动精确计算，无需锚定"
+}
