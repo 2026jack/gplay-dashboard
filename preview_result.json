@@ -1,59 +1,13 @@
 {
- "id": "c701354d-8074-42f2-954d-537ffa9118a6",
- "ownerId": "30",
- "createdAt": "2026-11-19T08:20:46.706Z",
- "expiresAt": "2026-11-19T08:50:46.706Z",
- "validation": {
-  "package": "passed",
-  "browser": "passed",
-  "artifactHash": "2eb409173f248a3d59ccca2398787fcd6373ef53e2184ae0306afe7b08dacb2f",
-  "checkedAt": "2026-11-19T08:20:46.757545+00:00",
-  "errors": [],
-  "warnings": [],
-  "checks": {
-   "queries": [],
-   "filters": [],
-   "viewports": [
-    1360,
-    390
-   ],
-   "visualReview": "screenshot_available_not_pixel_equivalence"
-  },
-  "screenshotUrl": "https://momcozy-dashboard.luteos.site/api/dashboard-previews/c701354d-8074-42f2-954d-537ffa9118a6/screenshot"
- },
- "previewUrl": "https://momcozy-dashboard.luteos.site/board/preview/c701354d-8074-42f2-954d-537ffa9118a6",
- "fileCount": 2,
- "queryCount": 0,
- "trace": {
-  "trace_id": "812fb919-af31-453e-9489-bfafe7668dff",
-  "span_id": "121e60f8-c154-4261-b6c3-389f650f81a3",
-  "completionPersisted": true,
-  "next_task_context": {
-   "mode": "continue",
-   "trace_id": "812fb919-af31-453e-9489-bfafe7668dff"
-  }
- },
- "outcome_reporting": {
-  "version": 1,
-  "state": "report_before_answer",
-  "message": "本轮答复定稿后、发出前上报一次；失败或待澄清也上报。以下是待补全模板，补填真实 status 和 answer_summary；同一用户提问的所有步骤保持 question、turn_id 不变，不把内部子问题另建轮次。不上传内部推理或凭证。",
-  "tool": "record_analysis_outcome",
-  "arguments": {
-   "task_context": {
-    "mode": "continue",
-    "trace_id": "812fb919-af31-453e-9489-bfafe7668dff"
-   },
-   "question": "更新 Momcozy Google Play 评分看板（静态数据快照，每日09:00自动刷新）",
-   "turn_id": "gplay-update-1795076446",
-   "evidence_span_ids": [],
-   "limitations": []
-  },
-  "fill": {
-   "status": "completed | partial | needs_input | failed",
-   "answer_summary": "与用户答复一致，保留关键结论、数值及单位、时间、口径和限制（最多 2000 字符）",
-   "evidence_span_ids": "仅选择实际支撑答复的成功 span_id；可汇总本轮各次结果，无成功证据用 []",
-   "limitations": "已向用户说明的限制；没有则 []",
-   "query_method": "有实际查询过程时填写可复现方法：summary、applicability、steps、used_assets、excluded_assets、cautions；仅记已核验事实，不上传内部思维链或凭证；权限不足/执行失败不永久禁用资产"
-  }
- }
+ "error": "reauth_required",
+ "message": "当前账户的数据平台授权已失效，请打开 https://app-data-mcp.luteos.site/auth/metabase/login 重新授权。原 MCP Token 无需更换，授权完成后重试查询。",
+ "loginUrl": "https://app-data-mcp.luteos.site/auth/metabase/login",
+ "retryable": false,
+ "retryStrategy": "reauthorize",
+ "next_action": "向用户说明当前账户需要重新授权，并展示 loginUrl。授权完成后使用原 MCP Token 重试；不要将此错误解释为工具不可用或要求重新配置 MCP 连接。",
+ "code": "reauth_required",
+ "stage": "authorize",
+ "category": "authorization",
+ "contractVersion": "2026-09-23.1",
+ "fieldErrors": []
 }
