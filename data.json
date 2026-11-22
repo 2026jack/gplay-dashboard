@@ -1,6 +1,6 @@
 {
  "package": "com.lute.momcozy",
- "generated_at": "2026-11-21 15:56:32",
+ "generated_at": "2026-11-22 15:43:12",
  "start_date": "2026-09-22",
  "timezone": "Asia/Shanghai",
  "daily_new": [
@@ -2579,16 +2579,34 @@
    "total": 2
   },
   {
+   "date": "2026-11-19",
+   "s1": 0,
+   "s2": 0,
+   "s3": 0,
+   "s4": 1,
+   "s5": 3,
+   "total": 4
+  },
+  {
    "date": "2026-11-20",
    "s1": 0,
    "s2": 0,
    "s3": 0,
    "s4": 1,
-   "s5": 0,
-   "total": 1
+   "s5": 1,
+   "total": 2
   },
   {
    "date": "2026-11-21",
+   "s1": 1,
+   "s2": 0,
+   "s3": 1,
+   "s4": 0,
+   "s5": 0,
+   "total": 2
+  },
+  {
+   "date": "2026-11-22",
    "s1": 0,
    "s2": 0,
    "s3": 1,
@@ -2635,6 +2653,15 @@
    "total": 21
   },
   {
+   "version": "3.8.0",
+   "s1": 1,
+   "s2": 1,
+   "s3": 0,
+   "s4": 1,
+   "s5": 18,
+   "total": 21
+  },
+  {
    "version": "2.0.5",
    "s1": 1,
    "s2": 1,
@@ -2660,15 +2687,6 @@
    "s4": 1,
    "s5": 12,
    "total": 17
-  },
-  {
-   "version": "3.8.0",
-   "s1": 1,
-   "s2": 1,
-   "s3": 0,
-   "s4": 0,
-   "s5": 14,
-   "total": 16
   },
   {
    "version": "2.2.7",
@@ -3520,32 +3538,32 @@
   }
  ],
  "us": {
-  "rating_value": 4.39,
-  "rating_count": 492,
+  "rating_value": 4.42,
+  "rating_count": 499,
   "hist": {
    "1": 44,
-   "2": 28,
+   "2": 23,
    "3": 3,
    "4": 23,
-   "5": 387
+   "5": 397
   },
-  "hist_sum": 485,
-  "hist_avg": 4.4041,
-  "snapshot_at": "2026-11-21 15:56:32",
-  "date": "2026-11-21"
+  "hist_sum": 490,
+  "hist_avg": 4.4408,
+  "snapshot_at": "2026-11-22 15:43:12",
+  "date": "2026-11-22"
  },
  "global": {
-  "rating_count": 492,
-  "written_reviews": 476,
-  "avg_from_reviews": 3.66,
+  "rating_count": 499,
+  "written_reviews": 481,
+  "avg_from_reviews": 3.67,
   "hist_from_reviews": {
    "1": 103,
    "2": 39,
    "3": 36,
-   "4": 37,
-   "5": 261
+   "4": 38,
+   "5": 265
   },
-  "hist_sum": 476
+  "hist_sum": 481
  },
  "overview": {
   "trend": [
@@ -4394,6 +4412,11 @@
     "date": "2026-11-21",
     "rating_value": 4.39,
     "rating_count": 492
+   },
+   {
+    "date": "2026-11-22",
+    "rating_value": 4.42,
+    "rating_count": 499
    }
   ]
  },
