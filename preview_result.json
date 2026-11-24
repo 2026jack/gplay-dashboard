@@ -1,13 +1,13 @@
 {
- "id": "1afde742-26fa-4b4d-a613-bc5d1505753f",
+ "id": "b12300fc-97fc-4568-a758-e233f3e5256f",
  "ownerId": "30",
- "createdAt": "2026-11-23T08:32:27.196Z",
- "expiresAt": "2026-11-23T09:02:27.196Z",
+ "createdAt": "2026-11-24T10:38:54.543Z",
+ "expiresAt": "2026-11-24T11:08:54.543Z",
  "validation": {
   "package": "passed",
   "browser": "passed",
-  "artifactHash": "74958e7d9be2534a383cb7c4db19bc53f6e9ec793c411781f2e97ed0d2159051",
-  "checkedAt": "2026-11-23T08:32:27.248337+00:00",
+  "artifactHash": "e9fd76fcb23914dad1886aafdd5cf85d0ce8689a4471d4f90fb8cbb4a408189e",
+  "checkedAt": "2026-11-24T10:38:54.595636+00:00",
   "errors": [],
   "warnings": [],
   "checks": {
@@ -19,18 +19,18 @@
    ],
    "visualReview": "screenshot_available_not_pixel_equivalence"
   },
-  "screenshotUrl": "https://momcozy-dashboard.luteos.site/api/dashboard-previews/1afde742-26fa-4b4d-a613-bc5d1505753f/screenshot"
+  "screenshotUrl": "https://momcozy-dashboard.luteos.site/api/dashboard-previews/b12300fc-97fc-4568-a758-e233f3e5256f/screenshot"
  },
- "previewUrl": "https://momcozy-dashboard.luteos.site/board/preview/1afde742-26fa-4b4d-a613-bc5d1505753f",
+ "previewUrl": "https://momcozy-dashboard.luteos.site/board/preview/b12300fc-97fc-4568-a758-e233f3e5256f",
  "fileCount": 2,
  "queryCount": 0,
  "trace": {
-  "trace_id": "f3ccd004-0e4f-4bf4-bb8e-aefd19f57ded",
-  "span_id": "95e85810-cc07-4db3-999f-01c78adccd6e",
+  "trace_id": "2e8fc3f1-aac5-42ef-8b37-8f0a2f2e8b0b",
+  "span_id": "bdb0b8fc-5d6d-4c90-bbe7-cf80c3d1fc5e",
   "completionPersisted": true,
   "next_task_context": {
    "mode": "continue",
-   "trace_id": "f3ccd004-0e4f-4bf4-bb8e-aefd19f57ded"
+   "trace_id": "2e8fc3f1-aac5-42ef-8b37-8f0a2f2e8b0b"
   }
  },
  "outcome_reporting": {
@@ -41,10 +41,10 @@
   "arguments": {
    "task_context": {
     "mode": "continue",
-    "trace_id": "f3ccd004-0e4f-4bf4-bb8e-aefd19f57ded"
+    "trace_id": "2e8fc3f1-aac5-42ef-8b37-8f0a2f2e8b0b"
    },
    "question": "更新 Momcozy Google Play 评分看板（静态数据快照，每日09:00自动刷新）",
-   "turn_id": "gplay-update-1795422746",
+   "turn_id": "gplay-update-1795516733",
    "evidence_span_ids": [],
    "limitations": []
   },
