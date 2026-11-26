@@ -1,6 +1,6 @@
 {
  "package": "com.lute.momcozy",
- "generated_at": "2026-11-25 17:29:42",
+ "generated_at": "2026-11-26 17:08:00",
  "start_date": "2026-09-22",
  "timezone": "Asia/Shanghai",
  "daily_new": [
@@ -2619,9 +2619,9 @@
    "s1": 1,
    "s2": 0,
    "s3": 0,
-   "s4": 0,
+   "s4": 2,
    "s5": 1,
-   "total": 2
+   "total": 4
   },
   {
    "date": "2026-11-24",
@@ -2640,9 +2640,27 @@
    "s4": 0,
    "s5": 0,
    "total": 1
+  },
+  {
+   "date": "2026-11-26",
+   "s1": 0,
+   "s2": 0,
+   "s3": 1,
+   "s4": 0,
+   "s5": 2,
+   "total": 3
   }
  ],
  "version_global": [
+  {
+   "version": "3.8.0",
+   "s1": 4,
+   "s2": 1,
+   "s3": 2,
+   "s4": 3,
+   "s5": 37,
+   "total": 47
+  },
   {
    "version": "3.5.0",
    "s1": 2,
@@ -2651,15 +2669,6 @@
    "s4": 7,
    "s5": 31,
    "total": 43
-  },
-  {
-   "version": "3.8.0",
-   "s1": 3,
-   "s2": 1,
-   "s3": 2,
-   "s4": 1,
-   "s5": 33,
-   "total": 40
   },
   {
    "version": "3.7.0",
@@ -3566,31 +3575,31 @@
  ],
  "us": {
   "rating_value": 4.48,
-  "rating_count": 521,
+  "rating_count": 526,
   "hist": {
    "1": 45,
    "2": 13,
    "3": 3,
    "4": 25,
-   "5": 425
+   "5": 429
   },
-  "hist_sum": 511,
-  "hist_avg": 4.5108,
-  "snapshot_at": "2026-11-25 17:29:42",
-  "date": "2026-11-25"
+  "hist_sum": 515,
+  "hist_avg": 4.5146,
+  "snapshot_at": "2026-11-26 17:08:00",
+  "date": "2026-11-26"
  },
  "global": {
-  "rating_count": 521,
-  "written_reviews": 503,
+  "rating_count": 526,
+  "written_reviews": 510,
   "avg_from_reviews": 3.71,
   "hist_from_reviews": {
-   "1": 105,
+   "1": 106,
    "2": 39,
    "3": 38,
-   "4": 38,
-   "5": 283
+   "4": 40,
+   "5": 287
   },
-  "hist_sum": 503
+  "hist_sum": 510
  },
  "overview": {
   "trend": [
@@ -4459,6 +4468,11 @@
     "date": "2026-11-25",
     "rating_value": 4.48,
     "rating_count": 521
+   },
+   {
+    "date": "2026-11-26",
+    "rating_value": 4.48,
+    "rating_count": 526
    }
   ]
  },
@@ -4473,7 +4487,7 @@
  },
  "official": {
   "global_latest_avg": 3.51,
-  "avg28_daily_mean": 4.53,
+  "avg28_daily_mean": 4.6,
   "report_range": [
    "2026-08-01",
    "2026-11-12"
