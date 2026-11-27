@@ -1,6 +1,6 @@
 {
  "package": "com.lute.momcozy",
- "generated_at": "2026-11-26 17:08:00",
+ "generated_at": "2026-11-27 17:23:26",
  "start_date": "2026-09-22",
  "timezone": "Asia/Shanghai",
  "daily_new": [
@@ -2629,8 +2629,8 @@
    "s2": 0,
    "s3": 0,
    "s4": 0,
-   "s5": 0,
-   "total": 1
+   "s5": 5,
+   "total": 6
   },
   {
    "date": "2026-11-25",
@@ -2654,12 +2654,12 @@
  "version_global": [
   {
    "version": "3.8.0",
-   "s1": 4,
+   "s1": 5,
    "s2": 1,
    "s3": 2,
    "s4": 3,
-   "s5": 37,
-   "total": 47
+   "s5": 42,
+   "total": 53
   },
   {
    "version": "3.5.0",
@@ -3571,35 +3571,44 @@
    "s4": 0,
    "s5": 0,
    "total": 1
+  },
+  {
+   "version": "3.9.1",
+   "s1": 0,
+   "s2": 0,
+   "s3": 1,
+   "s4": 0,
+   "s5": 0,
+   "total": 1
   }
  ],
  "us": {
   "rating_value": 4.48,
-  "rating_count": 526,
+  "rating_count": 529,
   "hist": {
    "1": 45,
    "2": 13,
    "3": 3,
    "4": 25,
-   "5": 429
+   "5": 432
   },
-  "hist_sum": 515,
-  "hist_avg": 4.5146,
-  "snapshot_at": "2026-11-26 17:08:00",
-  "date": "2026-11-26"
+  "hist_sum": 518,
+  "hist_avg": 4.5174,
+  "snapshot_at": "2026-11-27 17:23:26",
+  "date": "2026-11-27"
  },
  "global": {
-  "rating_count": 526,
-  "written_reviews": 510,
-  "avg_from_reviews": 3.71,
+  "rating_count": 529,
+  "written_reviews": 516,
+  "avg_from_reviews": 3.72,
   "hist_from_reviews": {
-   "1": 106,
+   "1": 107,
    "2": 39,
    "3": 38,
    "4": 40,
-   "5": 287
+   "5": 292
   },
-  "hist_sum": 510
+  "hist_sum": 516
  },
  "overview": {
   "trend": [
@@ -4018,6 +4027,38 @@
    {
     "date": "2026-11-12",
     "avg": 3.51
+   },
+   {
+    "date": "2026-11-13",
+    "avg": 3.51
+   },
+   {
+    "date": "2026-11-14",
+    "avg": 3.53
+   },
+   {
+    "date": "2026-11-15",
+    "avg": 3.53
+   },
+   {
+    "date": "2026-11-16",
+    "avg": 3.54
+   },
+   {
+    "date": "2026-11-17",
+    "avg": 3.54
+   },
+   {
+    "date": "2026-11-18",
+    "avg": 3.55
+   },
+   {
+    "date": "2026-11-19",
+    "avg": 3.56
+   },
+   {
+    "date": "2026-11-20",
+    "avg": 3.57
    }
   ],
   "trend_us": [
@@ -4436,6 +4477,30 @@
    {
     "date": "2026-11-12",
     "avg": 3.49
+   },
+   {
+    "date": "2026-11-13",
+    "avg": 3.49
+   },
+   {
+    "date": "2026-11-14",
+    "avg": 3.49
+   },
+   {
+    "date": "2026-11-15",
+    "avg": 3.49
+   },
+   {
+    "date": "2026-11-16",
+    "avg": 3.5
+   },
+   {
+    "date": "2026-11-17",
+    "avg": 3.51
+   },
+   {
+    "date": "2026-11-18",
+    "avg": 3.51
    }
   ],
   "us_snapshot_history": [
@@ -4473,6 +4538,11 @@
     "date": "2026-11-26",
     "rating_value": 4.48,
     "rating_count": 526
+   },
+   {
+    "date": "2026-11-27",
+    "rating_value": 4.48,
+    "rating_count": 529
    }
   ]
  },
@@ -4486,11 +4556,11 @@
   "note": "global_default_rating 为后台『默认 Google Play 评分』= 全量(含纯打星)累计，仅后台可见，公开渠道无精确源；美国值已由美国区星级分布直方图每日自动精确计算，无需锚定"
  },
  "official": {
-  "global_latest_avg": 3.51,
-  "avg28_daily_mean": 4.6,
+  "global_latest_avg": 3.57,
+  "avg28_daily_mean": 4.64,
   "report_range": [
    "2026-08-01",
-   "2026-11-12"
+   "2026-11-20"
   ]
  },
  "daily_new_us": [
@@ -5933,6 +6003,15 @@
    "s4": 0,
    "s5": 1,
    "total": 2
+  },
+  {
+   "date": "2026-11-26",
+   "s1": 0,
+   "s2": 0,
+   "s3": 1,
+   "s4": 0,
+   "s5": 0,
+   "total": 1
   }
  ]
 }
