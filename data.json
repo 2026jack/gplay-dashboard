@@ -1,6 +1,6 @@
 {
  "package": "com.lute.momcozy",
- "generated_at": "2026-11-27 17:23:26",
+ "generated_at": "2026-11-28 16:39:03",
  "start_date": "2026-09-22",
  "timezone": "Asia/Shanghai",
  "daily_new": [
@@ -2636,10 +2636,10 @@
    "date": "2026-11-25",
    "s1": 1,
    "s2": 0,
-   "s3": 0,
+   "s3": 1,
    "s4": 0,
-   "s5": 0,
-   "total": 1
+   "s5": 3,
+   "total": 5
   },
   {
    "date": "2026-11-26",
@@ -2658,8 +2658,8 @@
    "s2": 1,
    "s3": 2,
    "s4": 3,
-   "s5": 42,
-   "total": 53
+   "s5": 45,
+   "total": 56
   },
   {
    "version": "3.5.0",
@@ -3128,6 +3128,15 @@
    "s4": 0,
    "s5": 0,
    "total": 1
+  },
+  {
+   "version": "3.9.1",
+   "s1": 0,
+   "s2": 0,
+   "s3": 1,
+   "s4": 0,
+   "s5": 0,
+   "total": 1
   }
  ],
  "version_us": [
@@ -3584,31 +3593,31 @@
  ],
  "us": {
   "rating_value": 4.48,
-  "rating_count": 529,
+  "rating_count": 530,
   "hist": {
    "1": 45,
    "2": 13,
    "3": 3,
    "4": 25,
-   "5": 432
+   "5": 433
   },
-  "hist_sum": 518,
-  "hist_avg": 4.5174,
-  "snapshot_at": "2026-11-27 17:23:26",
-  "date": "2026-11-27"
+  "hist_sum": 519,
+  "hist_avg": 4.5183,
+  "snapshot_at": "2026-11-28 16:39:03",
+  "date": "2026-11-28"
  },
  "global": {
-  "rating_count": 529,
-  "written_reviews": 516,
-  "avg_from_reviews": 3.72,
+  "rating_count": 530,
+  "written_reviews": 520,
+  "avg_from_reviews": 3.73,
   "hist_from_reviews": {
    "1": 107,
    "2": 39,
-   "3": 38,
+   "3": 39,
    "4": 40,
-   "5": 292
+   "5": 295
   },
-  "hist_sum": 516
+  "hist_sum": 520
  },
  "overview": {
   "trend": [
@@ -4059,6 +4068,18 @@
    {
     "date": "2026-11-20",
     "avg": 3.57
+   },
+   {
+    "date": "2026-11-21",
+    "avg": 3.59
+   },
+   {
+    "date": "2026-11-23",
+    "avg": 3.6
+   },
+   {
+    "date": "2026-11-24",
+    "avg": 3.61
    }
   ],
   "trend_us": [
@@ -4501,6 +4522,22 @@
    {
     "date": "2026-11-18",
     "avg": 3.51
+   },
+   {
+    "date": "2026-11-20",
+    "avg": 3.53
+   },
+   {
+    "date": "2026-11-21",
+    "avg": 3.54
+   },
+   {
+    "date": "2026-11-23",
+    "avg": 3.54
+   },
+   {
+    "date": "2026-11-24",
+    "avg": 3.55
    }
   ],
   "us_snapshot_history": [
@@ -4543,6 +4580,11 @@
     "date": "2026-11-27",
     "rating_value": 4.48,
     "rating_count": 529
+   },
+   {
+    "date": "2026-11-28",
+    "rating_value": 4.48,
+    "rating_count": 530
    }
   ]
  },
@@ -4556,11 +4598,11 @@
   "note": "global_default_rating 为后台『默认 Google Play 评分』= 全量(含纯打星)累计，仅后台可见，公开渠道无精确源；美国值已由美国区星级分布直方图每日自动精确计算，无需锚定"
  },
  "official": {
-  "global_latest_avg": 3.57,
-  "avg28_daily_mean": 4.64,
+  "global_latest_avg": 3.61,
+  "avg28_daily_mean": 4.56,
   "report_range": [
    "2026-08-01",
-   "2026-11-20"
+   "2026-11-24"
   ]
  },
  "daily_new_us": [
